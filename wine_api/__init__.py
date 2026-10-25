@@ -1,0 +1,1 @@
+"""Wine API application package."""

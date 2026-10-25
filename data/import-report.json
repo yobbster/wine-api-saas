@@ -1,0 +1,23 @@
+{
+  "cleaning_version": 1,
+  "source_file": "wine-ratings.csv",
+  "source_sha256": "9bcf5349443cd9d6cfc1067ef00ac51a3c141f5a1e21ea8de2cd59ded00bdcbb",
+  "source_rows": 32780,
+  "wines": 32759,
+  "duplicate_rows_removed": 21,
+  "excluded_columns": [
+    "grape"
+  ],
+  "cleaned_wines_missing_region": 3,
+  "cleaned_wines_missing_notes": 184,
+  "cleaned_wines_unclassified_type": 641,
+  "cleaned_wines_missing_source_variety": 358,
+  "unmapped_variety_labels": {
+    "Boutique": 26,
+    "Collectible": 218,
+    "Green Wine": 27,
+    "Screw Cap": 12
+  },
+  "deduplication": "All cleaned fields including variety_raw must match",
+  "id_policy": "Generated wine IDs; original CSV IDs in source_rows"
+}
